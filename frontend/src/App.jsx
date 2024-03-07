@@ -1,12 +1,12 @@
 import "./App.css";
-import TodoWithButton from "./componenets/experiment/TodoWithButton";
+import UseMemoWithEx from "./componenets/experiment/UseMemoWithEx";
 
 function App() {
   return (
     <div>
       <h1>Musab Hassan</h1>
       <h3>Full Stack Developer</h3>
-      <TodoWithButton />
+      <UseMemoWithEx />
     </div>
   );
 }
