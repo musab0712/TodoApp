@@ -1,12 +1,12 @@
 import "./App.css";
-import UseMemoWithEx from "./componenets/experiment/UseMemoWithEx";
+import Assignment1 from "./componenets/UseMemoAssign/Assignment1";
 
 function App() {
   return (
     <div>
       <h1>Musab Hassan</h1>
       <h3>Full Stack Developer</h3>
-      <UseMemoWithEx />
+      <Assignment1 />
     </div>
   );
 }
