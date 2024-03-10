@@ -1,13 +1,21 @@
 import "./App.css";
-import { Assignment3 } from "./componenets/UseMemoAssign/Assignment3";
+import React, { lazy } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Dashboard from "./componenets/experiment/Dashboard";
+import Landing from "./componenets/experiment/Landing";
+import Navbar from "./componenets/experiment/Navbar";
 
 function App() {
   return (
-    <div>
-      <h1>Musab Hassan</h1>
-      <h3>Full Stack Developer</h3>
-      <Assignment3 />
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Landing />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
