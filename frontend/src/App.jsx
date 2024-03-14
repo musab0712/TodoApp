@@ -1,10 +1,12 @@
 import "./App.css";
-import Count from "./componenets/experiment/Count";
+import Todo from "./componenets/todo/Todo";
+import TosoApp from "./componenets/todo/TosoApp";
 
 function App() {
   return (
     <>
-      <Count />
+      <Todo />
+      <TosoApp />
     </>
   );
 }
